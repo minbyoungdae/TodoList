@@ -4,7 +4,10 @@ import {Button, Progress} from 'semantic-ui-react'
 
 function App() {
   return (
-    <h1>안녕하세요</h1>
+    <div>
+      <h1>안녕하세요</h1>
+      <Progress percent={66} />
+    </div>
   );
 }
 
