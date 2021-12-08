@@ -1,10 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
-import {
-  MdCheckBoxOutlineBlank,
-  MdCheckBox,
-  MdCheckCircleOutline,
-} from "react-icons/md";
+import { MdCheckBoxOutlineBlank, MdCheckBox } from "react-icons/md";
 import { BiTrash } from "react-icons/bi";
 import cn from "classnames";
 
@@ -53,17 +49,6 @@ const Remove = styled.div`
   cursor: pointer;
   &:hover {
     color: #ff8787;
-  }
-`;
-
-const Edit = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  color: skyblue;
-  cursor: pointer;
-  &:hover {
-    color: skyblue;
   }
 `;
 
